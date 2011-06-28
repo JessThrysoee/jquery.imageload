@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+ jquery.imageload -  reliable image load event 
+
+ Copyright (c) 2011 Jess Thrysoee (jess@thrysoee.dk)
+ Licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) license.
+-->
+
+<html>
+
+   <head>
+      <meta charset="utf-8">
+      <title>QUnit: ImageLoader</title>
+      <link rel="stylesheet" href="http://code.jquery.com/qunit/git/qunit.css" />
+      <style> img { display: block; } </style>
+   </head>
+
+   <body>
+      <h1 id="qunit-header">ImageLoader Tests</h1>
+      <h2 id="qunit-banner"></h2>
+      <div id="qunit-testrunner-toolbar"></div>
+      <h2 id="qunit-userAgent"></h2>
+      <ol id="qunit-tests"></ol>
+      <div id="qunit-fixture">
+         <img id="inline-ok" src="http://flickholdr.com/300/200/nature/1">
+         <img id="inline-fail" src="http://example.com/fail.png">
+      </div>
+
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="http://code.jquery.com/qunit/git/qunit.js"></script>
+      <script src="../jquery.imageload.js"></script>
+      <script src="tests.js"></script>
+   </body>
+
+</html>
+
+

@@ -1,11 +1,11 @@
 jquery.imageload - reliable image load event 
 ============================================
 
-Address the the [caveats of the load event when used with images](http://api.jquery.com/load-event/).
+Address the [caveats of the load event when used with images](http://api.jquery.com/load-event/).
 
 
 
-inline html image 
+Inline html image 
 
        $('img').imageLoad(function (e) {
           if (e.type === 'error') {

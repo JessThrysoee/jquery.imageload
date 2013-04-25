@@ -20,8 +20,8 @@
          var ns = '.ImageLoader',
              events;
 
-         // load is unreliable on IE so listen for readystatechange instead
-         events = $.map([$.browser.msie ? 'readystatechange' : 'load', 'abort', 'error'], function (type) {
+         // load is unreliable on oldIE so also listen for readystatechange
+         events = $.map(['readystatechange', 'load', 'abort', 'error'], function (type) {
             return type + ns;
          }).join(' ');
 
